@@ -6,8 +6,8 @@ void merge(int *testData, int left, int middle, int right) {
 	
 	int size_left = middle - left + 1;
 	int size_right = right - middle;
-	int sub_left[8];
-	int sub_right[8];
+	int sub_left[8];			//how to define the dynamically changed size of the sub list?
+	int sub_right[8];	
 	int i;
 	int m, n;
 
